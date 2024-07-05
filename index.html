@@ -10,7 +10,7 @@
 <body>
     
     <nav id="desktop-nav">
-        <div class="logo">Krupa Shobhashna</div>
+        <a class="logo" href="#">Krupa Shobhashna</a>
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -118,17 +118,11 @@
           </div>
           <div class="text-container">
             <p style="text-align: justify;">
-              I am a student of the third year Looking for a challenging career in the field of Computer Engineering which provides me a platform to present my practical knowledge , Technical , Analytical and Professional Skills , where I can utilize my skills for developing my career and for the growth of the organization. also , I like to play the outdoor games . so overall , I am dedicated professional with keen interest in the technology , fitness and sports .
+              I am a student of the forth year Looking for a challenging career in the field of Computer Engineering which provides me a platform to present my practical knowledge , Technical , Analytical and Professional Skills , where I can utilize my skills for developing my career and for the growth of the organization. also , I like to play the outdoor games . so overall , I am dedicated professional with keen interest in the technology , fitness and sports .
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./images/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
 
 
@@ -140,9 +134,7 @@
     
     <section id="ina">
       <h1 class="title">Interest & Achievement</h1>
-      <br>
-      <br>
-      <br>
+
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -206,12 +198,6 @@
           </div>
         </div>
       </div>
-      <img
-        src="./images/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
 
 
@@ -224,7 +210,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Website Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -266,7 +252,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>React JS</h3>
+                  <h3>MERN</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -329,29 +315,131 @@
                 />
                 <div>
                   <h3>Computer Engineering</h3>
-                  <p>8.6(CGPA)</p>
+                  <p>8.63(CGPA)</p>
                   <p>Charusat University</p>
                 </div>
               </article>
               <article>
+                <!-- <img
+                  src="./images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div> -->
               </article>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./images/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
     </section>
 
 
     <hr>
 
 
+    <section id="projects" class="height">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/news.avif"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">News Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <br>  
+            <div class="article-container">
+              <img
+                src="./images/leader.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">LeaderSphere</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/word.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">WordMagic</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+
+    <hr>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-form-container">
+        <!-- <h2>Contact Me</h2> -->
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+  
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+  
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    </section>
+
+    
+
+
+    <hr>
+
+
+    <footer>
+      <p>Copyright &#169; 2024 Krupa Shobhashna. All Rights Reserved.</p>
+    </footer>
 
 
 
